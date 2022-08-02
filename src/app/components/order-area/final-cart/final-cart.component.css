@@ -1,0 +1,38 @@
+div {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(232, 255, 232);
+}
+
+
+
+table{
+    display: inline-block;
+    font-size: larger;
+    font-size: 20px;
+    height: 100%;
+ }
+td{
+    border:none;
+ }
+
+tr:nth-child(even) {background-image: radial-gradient( circle 993px at 0.5% 50.5%, rgb(98 131 203 / 37%) 0%, rgb(247 250 255) 100.2% );}
+
+
+.totalPrice{
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    background-image: radial-gradient( circle 993px at 0.5% 50.5%, rgb(98 131 203 / 37%) 0%, rgb(247 250 255) 100.2% );
+    position: relative;
+    width: 26%;
+    display: inline-block;
+    top: 15px;
+    border: 1px solid black;
+    border-radius: 7px;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+input{
+    border: black 2px solid;
+}

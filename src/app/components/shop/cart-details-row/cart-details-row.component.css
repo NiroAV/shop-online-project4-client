@@ -1,0 +1,21 @@
+input{
+    width: 50%;
+    border-radius: 5px;
+ }
+ button{
+    border: none;
+ }
+ .totalAmount{
+   width: 10%;
+ }
+ .amount{
+   width: 10%;
+ }
+
+ .edit-btn{
+  box-shadow: none;
+  background-color: rgb(115, 246, 115)
+ }
+ .delete-btn{
+  box-shadow: none;
+ }

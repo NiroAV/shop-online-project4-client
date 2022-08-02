@@ -1,0 +1,33 @@
+<main>
+    <br><br><br><br>
+    <input type="text" name = 'search'  placeholder="Search in cart" [(ngModel)]="search">
+    <div>
+       <a routerLink="/shop"><button class="btn btn-success"> << Back to shop</button></a>
+    </div>
+  
+    <table>
+        <thead>
+        <tr>
+            <th>Product&nbsp;&nbsp;</th>
+            <th>Amount &nbsp;&nbsp;</th>
+            <th>Total Price</th>
+        </tr>
+    </thead>
+        <tbody>
+        <tr *ngFor="let c of cartDetails">
+            <td innerHTML = "{{c.name | highlight : search}}">{{c.name}}</td>
+            <td>{{c.amount}}</td>
+            <td>{{c.totalPrice.toFixed(2) | currency}}</td>
+        </tr>
+    </tbody>
+     
+    </table><br />
+
+    <div class="totalPrice">
+    Total price: {{totalPrice2 | currency}}
+</div>
+</main>
+
+
+
+

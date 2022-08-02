@@ -1,0 +1,30 @@
+.list{
+  position: relative;
+
+}
+
+.admin-form{
+  border-radius: 7px;
+  background-color: rgb(255, 255, 255);
+  
+}
+button{
+  display: inline-block;
+  top: -0.5%;
+  left: 0.5%;
+  margin: 30px;
+  position: fixed;
+  z-index: 2;
+}
+.add {
+  left:  4%;
+  top: -0.5%;
+}
+
+mat-drawer{
+  background-color: aliceblue;
+}
+
+mat-drawer-container{
+  background-color: white;
+}

@@ -1,0 +1,62 @@
+.main {
+    height: 100%;
+    width: 99%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: stretch;
+    border: none;
+    
+}
+
+div {
+    margin: 10px;
+}
+
+.buy-here{
+    flex-grow: 1;
+    width: 15%;
+    font-size: larger;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    padding-left: 25px;
+    background-color: rgb(232, 255, 232);
+    
+}
+
+.register{
+    flex-grow: 1;
+    width: 10%;
+    background-color: rgb(232, 255, 232);
+    
+}
+
+.more-info{
+    width: 5%;
+    flex-grow: 1;
+    background-color: rgb(232, 255, 232);
+    
+}
+mat-icon{
+    font-size: small;
+}
+h2{
+    text-align: center;
+}
+img{
+    width: 70%;
+    border-radius: 15px;
+}
+.imageStore{
+    border: none;
+    text-align: center
+}
+
+.btn-position{
+    margin-top: 50%;
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    font-size: 2rem;
+    
+}

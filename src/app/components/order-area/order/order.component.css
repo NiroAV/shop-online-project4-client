@@ -1,0 +1,26 @@
+.main {
+    height: 100%;
+    width: 99%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: stretch;
+    margin: 25px;
+    border: none;
+}
+
+div {
+    margin: 10px;
+}
+
+.cart{
+    flex-grow: 2;
+    background-color: rgb(232, 255, 232);
+    
+
+}
+
+.order-form{
+    flex-grow: 2;
+    background-color: rgb(232, 255, 232);
+
+}

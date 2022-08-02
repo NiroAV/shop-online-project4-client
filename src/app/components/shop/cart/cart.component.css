@@ -1,0 +1,40 @@
+div {
+    font-size: larger;
+
+}
+
+
+table{
+    display: inline-block;
+    overflow: auto;
+    font-size: larger;
+
+
+    width: 95%;
+ }
+td{
+    border:none;
+
+ }
+
+tr:nth-child(even) {background-image: radial-gradient( circle 993px at 0.5% 50.5%, rgb(98 131 203 / 37%) 0%, rgb(247 250 255) 100.2% );}
+
+
+.totalPrice{
+    position: relative;
+    width: 40%;
+    display: inline-block;
+    top: 15px;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: rgb(35, 33, 33);
+    color: white;
+}
+.clearCart{
+    font-size: 22px;
+}
+
+.openClose{
+        margin-right: 25px;
+}
+
